@@ -1,7 +1,7 @@
 # Curt Conversation Exporter
 
 Browser extension that exports the AI chat you're looking at — one click — to a
-portable, spec-compliant [`.curt`](https://github.com/JordanNewell/dot_curt)
+portable, spec-compliant [`.curt`](https://github.com/dotcurt/dot_curt)
 file. No accounts, no cloud, no copy-paste gymnastics: the conversation in the
 tab becomes a single UTF-8 `.curt` file on disk, readable by every app that
 speaks the format.
@@ -62,14 +62,14 @@ in place before staging.
 ## Format compliance
 
 Output is `.curt` v1 per [dotcurt.org](https://dotcurt.org) /
-[SPEC.md](https://github.com/JordanNewell/dot_curt/blob/main/SPEC.md). The test
+[SPEC.md](https://github.com/dotcurt/dot_curt/blob/main/SPEC.md). The test
 suite round-trips every serialized conversation through `curt-format`'s
 reference `parseCurt` (dev dependency only — zero runtime dependencies).
 
 ## Part of the .curt suite
 
-- [`curt-format`](https://github.com/JordanNewell/dot_curt) — the .curt format spec + reference implementation ([npm](https://www.npmjs.com/package/curt-format))
-- [`curt-convert`](https://github.com/JordanNewell/curt-convert) — Claude Code transcripts → .curt
-- [`curt-openwith`](https://github.com/JordanNewell/curt-openwith) — double-click any .curt file: offline viewer
+- [`curt-format`](https://github.com/dotcurt/dot_curt) — the .curt format spec + reference implementation ([npm](https://www.npmjs.com/package/curt-format))
+- [`curt-convert`](https://github.com/dotcurt/curt-convert) — Claude Code transcripts → .curt
+- [`curt-openwith`](https://github.com/dotcurt/curt-openwith) — double-click any .curt file: offline viewer
 
 MIT — see `license` in [package.json](package.json).

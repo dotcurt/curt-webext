@@ -104,7 +104,7 @@ telemetry, your data never leaves the page.
 **Description:**
 
 Curt exports live AI chat conversations to the open .curt format
-(JSON-based, spec at github.com/JordanNewell/dot_curt). One file, one
+(JSON-based, spec at github.com/dotcurt/dot_curt). One file, one
 conversation, full fidelity — readable by Curtis AI Chat and any .curt
 reader.
 

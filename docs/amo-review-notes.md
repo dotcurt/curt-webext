@@ -48,7 +48,7 @@ callback-shaped API ever enters the codebase, we will revisit.
 The uploaded zip is produced by a build step (TypeScript compilation), so
 the source zip is attached per the source-code policy. The build is
 reproducible from the repository at
-https://github.com/JordanNewell/curt-webext :
+https://github.com/dotcurt/curt-webext :
 
 ```
 npm install
